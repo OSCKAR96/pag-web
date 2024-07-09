@@ -1,0 +1,71 @@
+/* es normal comenzar con mardin border pading cero en un proyecto ya que si defino uno mas abajo se va a sobre escribir  */
+ body *{ /*el asterico es el selector de todo */
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: "Open sans", sans-serif;
+
+    color: white;
+    text-align: right;
+    text-shadow: 0px 3px 6px black; /*se puede buscar la referencia en w3school para ver los tipos de sombras y demaces */
+}
+
+header h1{
+    /* se escribe el header para que se cambie solo el h1 del header */
+    font-size: 60px;
+}
+
+header h2{
+    font-size: 40px;
+    font-weight: lighter
+}
+
+/* se coloca punto cuando es clase */
+#Proxima-Charla{
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+
+}
+
+.wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+
+.wrapper img{
+    width: 25%;
+}
+
+/* #se coloca punto porque es clase, gato id sin nada etiqueta. */
+.wrapper .texto{
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px;
+}
+
+
+i{
+    font-size: 30px;
+}
